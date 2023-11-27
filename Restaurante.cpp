@@ -4,8 +4,6 @@
 streamsize originalPrecision = cout.precision(); //definicao do tamanho default 
 
 
-//Falta Imprimir Total do pedido completo
-
 Restaurante::Restaurante()
 {
 	adicionaValor(); //adiciona os valores padrão
@@ -17,7 +15,6 @@ Restaurante::Restaurante()
 
 void Restaurante::menuCliente()
 {
-
 
 	int op = 99;
 	string id_teste;
